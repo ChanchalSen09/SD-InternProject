@@ -1,0 +1,58 @@
+.review {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+.review h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.review p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.highlighted-word {
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: #333;
+    font-weight: bold;
+}
+
+.tooltip-content {
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(47, 135, 0, 0.7);
+    z-index: 1;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.tooltip-arrow {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    border: solid transparent;
+    content: '';
+    height: 0;
+    width: 0;
+    border-width: 6px;
+    border-top-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 0;
+    margin-left: -6px;
+}
